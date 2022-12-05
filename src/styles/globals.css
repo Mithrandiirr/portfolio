@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'GT';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/gt.woff2) format('woff2');
+  }
+  body {
+    font-family: 'GT';
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  a {
+    text-decoration: none;
+  }
